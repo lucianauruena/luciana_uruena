@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Flatam.ign.com%2Fattack-on-titan-2%2F61140%2Fnews%2Fattack-on-titan-donde-esta-levi-ackerman&psig=AOvVaw1LiuAVXGOY4R3jNO_BCMio&ust=1613180744449000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLCfkuic4-4CFQAAAAAdAAAAABAD);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1{
+    font-family: 'avocado_creamyregular';
+    font-size: 100px;
+    color: black;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+}
+
+h2{
+    font-family: 'hoamregular';
+    font-size: 50px;
+    color: black;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+}
+
+.boton {
+    border: 1px solid black; /*anchura, estilo y color borde*/
+    padding: 20px; /*espacio alrededor texto*/
+    background-color: black; /*color botón*/
+    color: #ffffff; /*color texto*/
+    text-decoration: none; /*decoración texto*/
+    font-family: 'hoamregular'; /*tipografía texto*/
+    border-radius: 50px; /*bordes redondos*/
+    }
+
+.botones {
+    text-align: center;
+}
+
+.animate__animated.animate__fadeIn {
+    --animate-duration: 3s;
+  }
+
+  .heart {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: url(https://cssanimation.rocks/images/posts/steps/heart.png) no-repeat;
+    background-position: 0 0;
+    cursor: pointer;
+    animation: fave-heart 1s steps(28);
+  }
+  .heart:hover {
+    background-position: -2800px 0;
+    transition: background 1s steps(28);
+  }
+  @keyframes fave-heart {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: -2800px 0;
+    }
+  }
+  
+
+  p{
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+    color: black;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+  }
+
+  footer{
+      padding: 0;
+      margin-top: 25%;
+      margin-left: 0%;
+  }
+
+  
