@@ -54,3 +54,46 @@ h1 {
   .animate__animated.animated__fadeIn.corazon{
       --animation-duration: 6s;
   }
+
+/*
+@media screen and (min-width:1200px){
+    .linea-2{
+        max-width: 100%;
+    }
+}
+*/
+@media screen and (max-width:600px){
+    .linea-2{
+        padding: 0;
+    margin-left: 26%;
+    margin-right: 0%;
+    margin-top: -30%;
+    margin-bottom: 10%;
+    max-width: 163px;
+    }
+    .corazon {
+        margin-left: 39%;
+    }
+    .linea-1{
+        padding: 0;
+        margin: 200px 100px -101px; 
+    }
+}       
+
+@media screen and (min-width: 601px) and (max-width: 1400px){
+    .linea-1{
+        padding: 9px;
+        margin: 223px 20px -19px; 
+    }
+    .linea-2{
+        padding: 0;
+        margin-left: 31%;
+        margin-right: -2%;
+        margin-top: 0%;
+        margin-bottom: 17%;
+        max-width: 500px;
+    }
+    .corazon{
+        margin-left: 47%;
+    }
+}

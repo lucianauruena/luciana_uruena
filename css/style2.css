@@ -85,4 +85,77 @@ h2{
       margin-left: 0%;
   }
 
+  @media screen and (max-width: 600px){
+      footer{
+        padding: 0;
+      margin-top: 65%;
+      margin-left: 0%;
+      }
+      .heart{
+      width: 100px;
+      height: 100px;
+      position: absolute;
+      left: 49%;
+      top: 75%;
+      transform: translate(-50%, -50%);
+      background: url(https://cssanimation.rocks/images/posts/steps/heart.png) no-repeat;
+      background-position: 0 0;
+      cursor: pointer;
+      animation: fave-heart 1s steps(28);
+    }
+    .heart:hover {
+      background-position: -2800px 0;
+      transition: background 1s steps(28);
+    }
+    @keyframes fave-heart {
+      0% {
+        background-position: 0 0;
+      }
+      100% {
+        background-position: -2800px 0;
+      }
+    }
+      .botones{
+        padding: 0;
+      margin-top: 20%;
+      margin-left: 0%;
+      }
+  }
   
+  @media screen and (min-width: 601px) and (max-width: 1400px){
+      footer{
+        padding: 0;
+      margin-top: 70%;
+      margin-left: 0%;
+      }
+      .heart{
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        left: 49%;
+        top: 60%;
+        transform: translate(-50%, -50%);
+        background: url(https://cssanimation.rocks/images/posts/steps/heart.png) no-repeat;
+        background-position: 0 0;
+        cursor: pointer;
+        animation: fave-heart 1s steps(28);
+      }
+      .heart:hover {
+        background-position: -2800px 0;
+        transition: background 1s steps(28);
+      }
+      @keyframes fave-heart {
+        0% {
+          background-position: 0 0;
+        }
+        100% {
+          background-position: -2800px 0;
+        }
+      }
+
+      .botones{
+        padding: 0;
+      margin-top: 15%;
+      margin-left: 0%;
+      }
+  }
